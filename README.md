@@ -30,14 +30,14 @@ effectively conducts current in only one direction (downward in Fig. 1); it “r
 the other direction. This property turns out to be very useful, as you will find out in this experiment.
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/diode.JPG"/>
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/diode.JPG?raw=true"/>
 </p>
 <p align="center">
 Fig. 1 – Symbolic representation of diodes (a), diode (b), diode IV characteristic (c)
 </p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/1N4001.JPG"/>
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/1N4001.JPG?raw=true"/>
 </p>
 <p align="center">
 1N4001 diode
@@ -130,4 +130,23 @@ the I D versus V GS curve will be as shown since the vertical axis is defined as
 
 <p align="center"> 
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/fet_characteristics.JPG?raw=true"/>
+</p>
+
+# LabView Application
+
+In this lab experiment we are going to use application that made on LabView and NI myDAQ
+tool to trace diode, BJT and JFET characteristics curves. All that we do in this experiment
+building appropriate circuit, running application and analyzing result. Application itself is
+LabView program that all necessary codings is already ready to work.
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/UI_diode.JPG?raw=true"/>
+</p>
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/block_diagram.JPG?raw=true"/>
+</p>
+
+<p align="center"> 
+Figure 8. Block diagram of application.
 </p>
