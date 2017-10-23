@@ -68,7 +68,7 @@ our current through diode. Each iteration will be putted on the graph and make c
 Circuit for analyzing diode characteristics
 </p>
 
-1. Build the circuit as shown in Figure 10. R = 100 k. Silicon diode (1N4001).
+1. Build the circuit as shown in Figure 10. R = 100 kOhm. Silicon diode (1N4001).
 2. Connect to correct pins of NI myDAQ . Ground to AGND.
 3. Measure resistor by using digital multimeter.
 4. Open application and write founded value of resistor to R and put 0.1 V for V_AO 0 step
@@ -104,7 +104,7 @@ V_AO0 will be set by order written in application and hold while analog output (
 incrementing from 0 V to 10 V by step that you choose by putting Vce step(V). Each iteration will be
 putted on the graph and make second curve.
 
-1. Build the circuit as shown in Figure 11. R base = 1M. R collector = 1k.
+1. Build the circuit as shown in Figure 11. R base = 1MOhm. R collector = 1kOhm.
 BJT(2N3904CN).
 2. Connect to correct pins of NI myDAQ . Supply pins of OP AMP should be connected to
 +15V and -15V on NI myDAQ. Ground to AGND.
@@ -116,7 +116,7 @@ BJT(2N3904CN).
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/run_BJT.JPG?raw=true"/>
 </p>
 
-6. Write number of curves 3 (you can choose from 1 to 8). Set appropriate three base current (I B )
+6. Write number of curves 3 (you can choose from 1 to 8). Set appropriate three base current (I_B)
 values into the array.
 
 <p align="center"> 
