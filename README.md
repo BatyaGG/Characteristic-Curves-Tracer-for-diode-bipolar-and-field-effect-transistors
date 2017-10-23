@@ -248,3 +248,61 @@ values into the array.
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/trace_BJT.JPG?raw=true"/>
 </p>
 
+# Task 3
+
+# JFET characteristics curves
+
+Application will do same step as in BJT curve tracing. Only difference is that R gate not important
+(because current through gate equal to 0). You can either pit or remove R gate.
+To plot drain current (I D ) versus gate to source voltage (V GS ) graph V_AO0 will be incrementing by
+steps that written in Vgs step(V). NI myDAQ will read difference between V_AI 1+ and V_AI 1- and
+divide by R drain which is our current through drain. Each iteration will be putted on the graph and make
+first curve. For inverting pin of OP AMP analog output voltage(V_AO1) should be connected.
+For second curve V_AO0 will be set by order written in application and hold while analog output
+(V_AO1) will be incrementing from 0 V to 10 V by step that you choose by putting Vdc step(V). Each
+iteration will be putted on the graph and make second curve.
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/FET_circuit.JPG?raw=true"/>
+</p>
+
+<p align="center"> 
+Figure 12. FET circuit
+</p>
+
+1. Build the circuit as shown in Figure 11. R collector = 1k. JFET(2N5457).
+2. Connect to correct pins of NI myDAQ . Supply pins of OP AMP should be connected to
++15V and -15V on NI myDAQ. Ground to AGND.
+3. Measure R drain by using digital multimeter.
+4. Open application and choose JFET(you can choose from JFET, DMOSFET or EMOSFET ) then
+write founded value of resistor to R drain.
+5. Put 0.1 V for Vgs step(V) and Vds step(V).
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/run_FET.JPG?raw=true"/>
+</p>
+
+6. Write number of curves 3 (you can choose from 1 to 8). Set appropriate three voltage (V GS )
+values into the array.
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/run_FET2.JPG?raw=true"/>
+</p>
+
+7. Run the application.
+8. Finally you should have something like this
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/run_FET3.JPG?raw=true"/>
+</p>
+
+9. Repeat same process for DMOSFET and EMOSFET
+
+References:
+
+* JFET-Junction Field Effect Transistor.&quot; Electronic Circuits and DiagramElectronics
+Projects and Design. N.p., 12 Nov. 2013. Web. 03 May 2016.
+http://www.circuitstoday.com/jfet-junction- field-effect- transistor
+
+* Boylestad, Robert L., and Louis Nashelsky. Electronic Devices and Circuit Theory.
+Upper Saddle River, NJ: Prentice Hall, 2014.
