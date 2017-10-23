@@ -298,7 +298,7 @@ values into the array.
 
 9. Repeat same process for DMOSFET and EMOSFET
 
-References:
+# References:
 
 * JFET-Junction Field Effect Transistor.&quot; Electronic Circuits and DiagramElectronics
 Projects and Design. N.p., 12 Nov. 2013. Web. 03 May 2016.
