@@ -35,3 +35,10 @@ the other direction. This property turns out to be very useful, as you will find
 <p align="center">
 Fig. 1 – Symbolic representation of diodes (a), diode (b), diode IV characteristic (c)
 </p>
+
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/1N4001.JPG"/>
+</p>
+<p align="center">
+1N4001 diode
+</p>
