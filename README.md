@@ -63,5 +63,6 @@ In either case the electrodes are labelled collector, base and emitter. Note tha
 transistor, whether it be collector-base or base-emitter, constitutes a P-N junction.
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/transistor_kinds.JPG"/>
+<img src="https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/illustrations/transistor_kinds2.JPG"/>
 </p>
+
