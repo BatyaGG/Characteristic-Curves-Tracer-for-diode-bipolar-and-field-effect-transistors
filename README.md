@@ -23,11 +23,15 @@ LabView program that all necessary codings is already ready to work.
 </p>
 
 <p align="center"> 
+User Interface for Diode IV traces
+</p>
+
+<p align="center"> 
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/block_diagram.JPG?raw=true"/>
 </p>
 
 <p align="center"> 
-Figure 8. Block diagram sample of application
+Block diagram sample of application
 </p>
 
 NI myDAQ is a low-cost data acquisition (DAQ) device that gives students the ability to
@@ -39,14 +43,14 @@ two voltage analog inputs and constant voltages (+15 V, -15V).
 </p>
 
 Application controls NI myDAQ tool to generate and acquire appropriate analog voltages through
-pins(Fig 9).
+pins.
 
 <p align="center"> 
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/myDAQ2.JPG?raw=true"/>
 </p>
 
 <p align="center"> 
-Figure 9. NI myDAQ pins
+NI myDAQ pins
 </p>
 
 # Task 1
@@ -62,7 +66,7 @@ our current through diode. Each iteration will be putted on the graph and make c
 </p>
 
 <p align="center"> 
-Figure 10. Circuit for analyzing diode characteristics
+Circuit for analyzing diode characteristics
 </p>
 
 1. Build the circuit as shown in Figure 10. R = 100 k. Silicon diode (1N4001).
@@ -90,7 +94,7 @@ Figure 10. Circuit for analyzing diode characteristics
 </p>
 
 <p align="center"> 
-Figure 11. BJT circuit
+BJT circuit
 </p>
 
 To plot base current (I B ) versus base-emitter voltage (V BE ) graph V_AO0 will be incrementing by steps
@@ -146,7 +150,7 @@ iteration will be putted on the graph and make second curve.
 </p>
 
 <p align="center"> 
-Figure 12. FET circuit
+FET circuit
 </p>
 
 1. Build the circuit as shown in Figure 11. R collector = 1k. JFET(2N5457).
