@@ -15,8 +15,7 @@
 
 In this lab experiment we are going to use application that made on LabView and NI myDAQ
 tool to trace diode, BJT and JFET characteristics curves. All that we do in this experiment
-building appropriate circuit, running application and analyzing result. Application itself is
-LabView program that all necessary codings is already ready to work.
+building appropriate circuit, running application and analyzing result. LabView vi is programmed to perform diode, BJT and FET Current-Voltage (IV) analysis.
 
 <p align="center"> 
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/UI_diode.JPG?raw=true"/>
