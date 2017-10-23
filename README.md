@@ -148,5 +148,21 @@ LabView program that all necessary codings is already ready to work.
 </p>
 
 <p align="center"> 
-Figure 8. Block diagram of application.
+Figure 8. Block diagram sample of application
 </p>
+
+NI myDAQ is a low-cost data acquisition (DAQ) device that gives students the ability to
+measure and analyze live signals anywhere, anytime. We will use two voltage analog outputs,
+two voltage analog inputs and constant voltages (+15 V, -15V).
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/myDAQ.JPG?raw=true"/>
+</p>
+
+Application controls NI myDAQ tool to generate and acquire appropriate analog voltages through
+pins(Fig 9).
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/myDAQ2.JPG?raw=true"/>
+</p>
+
