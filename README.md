@@ -42,3 +42,19 @@ Fig. 1 – Symbolic representation of diodes (a), diode (b), diode IV characteri
 <p align="center">
 1N4001 diode
 </p>
+
+# BJT Transistor
+
+Transistors fall into two categories (bipolar junction or bipolar and field-effect) and are also classified
+according to the semiconductor material employed (commonly silicon, others are germanium, gallium
+arsenide, etc.) and to their field of application (e.g. general purpose, switching, high frequency, etc.).
+Various classes of transistor are available according to the application concerned.
+Bipolar transistors generally comprise NPN or PNP junctions of either silicon (Si) or germanium (Ge)
+material. (See Figs. 1 and 2). The junctions are produced in a single slice of silicon by diffusing
+impurities through a photographically reduced mask (in course Integrated Circuit Design). Germanium
+devices are rarely encountered and are ignored here. Figures 1 and 2, respectfully, show a simplified
+representation of NPN and PNP transistors together with circuit symbols.
+
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/transistor_kinds.JPG"/>
+</p>
