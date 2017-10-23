@@ -182,3 +182,69 @@ our current through diode. Each iteration will be putted on the graph and make c
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/circuit1.JPG?raw=true"/>
 </p>
 
+<p align="center"> 
+Figure 10. Circuit for analyzing diode characteristics
+</p>
+
+1. Build the circuit as shown in Figure 10. R = 100 k. Silicon diode (1N4001).
+2. Connect to correct pins of NI myDAQ . Ground to AGND.
+3. Measure resistor by using digital multimeter.
+4. Open application and write founded value of resistor to R and put 0.1 V for V_AO 0 step
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/run_diode.JPG?raw=true"/>
+</p>
+
+5. Run application
+6. Finally you should have something like this
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/diode_trace.JPG?raw=true"/>
+</p>
+
+# Task 2
+
+# BJT characteristic curves
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/BJT_circuit.JPG?raw=true"/>
+</p>
+
+<p align="center"> 
+Figure 11. BJT circuit
+</p>
+
+To plot base current (I B ) versus base-emitter voltage (V BE ) graph V_AO0 will be incrementing by steps
+that written in Vbe step(V). NI myDAQ will read difference between V_AI 0+ and V_AI 0- and divide
+by R which is our current through base. Each iteration will be putted on the graph and make first curve.
+For inverting pin of OP AMP analog output voltage(V_AO1) should be connected. For second curve
+V_AO0 will be set by order written in application and hold while analog output (V_AO1) will be
+incrementing from 0 V to 10 V by step that you choose by putting Vce step(V). Each iteration will be
+putted on the graph and make second curve.
+
+1. Build the circuit as shown in Figure 11. R base = 1M. R collector = 1k.
+BJT(2N3904CN).
+2. Connect to correct pins of NI myDAQ . Supply pins of OP AMP should be connected to
++15V and -15V on NI myDAQ. Ground to AGND.
+3. Measure R base and R collector by using digital multimeter.
+4. Open application and write founded value of resistors to R base and R collector.
+5. Put 0.1 V for Vbe step(V) and Vce step(V).
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/run_BJT.JPG?raw=true"/>
+</p>
+
+6. Write number of curves 3 (you can choose from 1 to 8). Set appropriate three base current (I B )
+values into the array.
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/run_BJT2.JPG?raw=true"/>
+</p>
+
+7. Run the application.
+8. Finally you should have something like this
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/trace_BJT.JPG?raw=true"/>
+</p>
+
