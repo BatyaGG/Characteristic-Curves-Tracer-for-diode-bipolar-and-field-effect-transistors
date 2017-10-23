@@ -29,6 +29,6 @@ for our purposes it is assumed to be zero; the diode is then said to be turned o
 effectively conducts current in only one direction (downward in Fig. 1); it “refuses” to conduct current in
 the other direction. This property turns out to be very useful, as you will find out in this experiment.
 
-<p align = "center">
-![picture alt](https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/diode.JPG)
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/diode.JPG">
 </p>
