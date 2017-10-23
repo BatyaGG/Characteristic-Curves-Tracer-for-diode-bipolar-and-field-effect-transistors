@@ -28,3 +28,5 @@ the voltage vD is negative, the diode is said to be reverse-biased; the diode cu
 for our purposes it is assumed to be zero; the diode is then said to be turned off. Thus, the diode
 effectively conducts current in only one direction (downward in Fig. 1); it “refuses” to conduct current in
 the other direction. This property turns out to be very useful, as you will find out in this experiment.
+
+![picture alt](https://raw.githubusercontent.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/master/diode.JPG)
