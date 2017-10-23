@@ -166,3 +166,19 @@ pins(Fig 9).
 <img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/myDAQ2.JPG?raw=true"/>
 </p>
 
+<p align="center"> 
+Figure 9. NI myDAQ pins
+</p>
+
+# Task 1
+
+# Diode characteristic curve
+
+V_AO 0 will generate analog DC voltage which will be increasing by V_AO 0 step which you write in
+the application. NI myDAQ will read difference between V_AI 1+ and V_AI 1- and divide by R which is
+our current through diode. Each iteration will be putted on the graph and make curve.
+
+<p align="center"> 
+<img src="https://github.com/BatyaGG/Characteristic-Curves-Tracer-for-diode-bipolar-and-field-effect-transistors/blob/master/illustrations/circuit1.JPG?raw=true"/>
+</p>
+
