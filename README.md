@@ -34,7 +34,7 @@ Block diagram sample of application
 </p>
 
 NI myDAQ is a low-cost data acquisition (DAQ) device that gives students the ability to
-measure and analyze live signals anywhere, anytime. We will use two voltage analog outputs,
+measure and analyze signals. We will use two voltage analog outputs,
 two voltage analog inputs and constant voltages (+15 V, -15V).
 
 <p align="center"> 
